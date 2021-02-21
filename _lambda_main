@@ -1,0 +1,5 @@
+#!/bin/sh
+# A shim for AWS Lambda environment and local Runtime API environment
+echo "Execuging $(cat /tmp/args) ..." >&2
+
+eval "exec $(cat /tmp/args)"
