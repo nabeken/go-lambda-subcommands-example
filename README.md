@@ -22,7 +22,7 @@ This will be invoked via the container runtime with command-line arguments. It w
 
 **[_lambda_main](_lambda_main)**: The Lambda runtime will invoke this command via `_HANDLER`. This is a shim for the Lambda runtime to restore an original command-line arguments.
 
-** [Dockerfile](Dockerfile)**:
+**[Dockerfile](Dockerfile)**:
 A sample Dockerfile to build a workable contaienr image.
 
 ## Run locally
